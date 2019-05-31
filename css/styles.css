@@ -1,0 +1,163 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;    
+}
+h1{
+    font-family: 'Ubuntu';
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: bolder;
+      
+}
+
+h3{
+    font-family: 'Montserrat-Bold';
+    font-weight: bolder;
+}
+p{
+    color: #8f8f8f;
+}
+i{
+    size: 45%;
+}
+body{
+    font-family: 'Montserrat';
+    
+}
+.container-fluid{
+    padding: 5% 15%;
+    }
+
+.nav-item{
+    margin: 0 15px;
+}
+
+.navbar{
+    margin: 0 0 4rem -1.0rem;
+    
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.nav-link{
+    font-size: larger;
+}
+.btn{
+    margin: 20px 10px;
+}
+
+.image{
+    width: 60%;
+    transform: rotate(20deg);
+    position:absolute;
+    left: 15%;
+}
+
+#features{
+    padding: 6% 15%;
+    background-color: #fff;
+    position:relative;
+    
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color:burlywood;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: aquamarine;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.testimonial-text{
+    font-family: 'Montserrat-Bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 80%;
+    margin: 20px;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 3%;
+}
+.press-logo{
+    width:15%;
+    margin: 10px 25px 15px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+.pricing-tab{
+    width: 100%;
+    outline-color: aqua;
+}
+
+#pricing{
+    padding: 80px;
+}
+.pricing-tab{
+    padding:2% 0;
+    text-align: center;
+}
+
+@media (max-width:994px) {
+    .image{
+        
+        transform: rotate(0deg);
+        position:static;
+        
+    }
+    #title{
+        text-align: center;
+    }
+
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 20%;
+    text-align: center;
+}
+
+.cta-header{
+    font-family: 'Ubuntu';
+    font-size: 4rem;
+    line-height: 1.2;
+    color: #fff;
+    
+}
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+}
+
+.fas{
+    margin: 5% 0.5% 0;
+}
+
+.footer-p{
+    margin: 2% auto 10%;
+}
+.btn-cta{
+    margin: 25px 10px;
+}
